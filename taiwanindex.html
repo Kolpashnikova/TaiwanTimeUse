@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<head>
+<title>Time Use Simulation</title>
+<link rel="stylesheet" href="style/style.css" type="text/css" media="screen" />
+<link rel="stylesheet" type="text/css" href="style/fonts.css" />
+<link href='https://fonts.googleapis.com/css?family=Inconsolata' rel='stylesheet' type='text/css'>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<meta charset="utf-8">
+<style>
+
+.node {
+  stroke-width: 1.5px;
+}
+
+</style>
+<body>
+<div id="main-wrapper">
+    <h2 class="centered g-header">Taiwanese <span style="border-top:3px solid #22bc11; border-bottom:3px solid #d6ffa9;">Women</span> and <span style="border-top:3px solid #1d53bc"><span style="border-bottom:3px solid #8e9fff">Men</span></span></h2>
+
+
+    <div id="sidebar">
+        <div id="current_time">12:00am</div>
+        <!--<div id="speed">
+        <div class="togglebutton pause" data-val="pause">Pause</div>
+        <div class="togglebutton medium current" data-val="medium">Slow</div>
+        <div class="togglebutton fast" data-val="fast">Fast</div>
+        <div class="clr"></div>
+        </div>-->
+        <div id="note"></div>
+    </div>
+    <div id="chart"></div>
+    <div class="clr"></div>
+</div>
+<script src="js/d3-3-5-5.min.js"></script>
+<script src="js/visual1taiwan.js"></script>
